@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <center>
+            <header>
+                <img src="images/header/logo.png" alt="Bonto Prix logo" id="brand-logo"/>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#" class="active">Flights</a></li>
+                        <li><a href="#" class="active">Accomodations</a></li>
+                        <li><a href="#" class="active">Virtual&nbspExperiences</a></li>
+                        <li><a href="#" class="active">&nbsp&nbsp&nbsp&nbspStories</a></li>
+                        <li><a href="#" class="active">Contact&nbspus</a></li>
+                        <li><a class="slide"> </div></li>
+                    </ul>
+                </nav>
+                <button type = "submit" id="user-icon">  
+                </button>
+            </header>
+        </center>
+        
+        <div class="banner">
+            <img src="images/banners/flights-view1.png" alt="banner image for the flights page" id="flights-view1"/>
+            <div class="opacity"></div>
+           <center>
+            <p class="banner-tagline">Cheapest flights</p>
+            <p class="banner-sub-tagline">Find the perfect flight for you, at the perfect price.</p>
+           </center> 
+        </div>
+
+        <p id="page-intro">Search hundreds of flight sites at once.</p>
+        <div id="flights-filter1">
+            <div class="airline-classes">
+                <button class="dropbtn">
+                Economy <img src="images/filter-icons/drop-down.png" alt="image for drop-down menu"/>
+                </button>
+                    <div class="dropdown-content">
+                        <a href="#">Economy</a>
+                        <a href="#">Business class</a>
+                        <a href="#">First class</a>
+                    </div>
+            </div>
+
+            <div class="sortby">
+                <button class="dropbtn">
+                Sort by <img src="images/filter-icons/drop-down.png" alt="image for drop-down menu"/>
+                </button>
+                    <div class="dropdown-content">
+                        <a href="#">Recommended</a>
+                        <a href="#">Price: Low to high</a>
+                        <a href="#">Price: High to low</a>
+                        <a href="#">A -> Z</a>
+                        <a href="#">Z -> A</a>
+                    </div>
+            </div>
+
+            <div id="destinations">
+                <input type="text" name="destination-from" id="destination-from" value="From">
+                <input type="submit" value="" id="swap-airports">
+                <input type="text" name="destination-to" id="destination-to" value="To">
+
+                <br><br><br>
+                <input type="date" id="departure-date" name="departure-date" value="2017-06-01">
+            </div>
+
+        </div>
+      
+       
+    </body>
+</html>

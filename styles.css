@@ -1,0 +1,356 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+/*header*/
+#brand-logo{
+    position: absolute;
+    width: 41px;
+    height: 51px;
+    left: 98px;
+    top: 24px;
+}
+
+#user-icon{
+    position: absolute;
+    width: 43px;
+    height: 50px;
+    right: 100px;
+    top: 24px;
+    background-image: url("images/header/user-icon.png");
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+ul{
+    position: relative;
+    width: 1000px;
+    height: 56px;
+    top: 20px;
+    background: #B3E3EA;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+}
+
+ul li{
+    list-style:none;
+    width: 150px;
+    align-items: center;
+    padding: 20px;
+}
+
+ul li a{
+    font-size: 20px;
+    display:block;
+    padding:20px;
+    text-align: center;
+    color:#000;
+    transition:0.5s;
+    text-decoration: none;
+}
+ul li.active{
+
+}
+/*footer*/
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 1262px;
+    height: 222px;
+    background: #B3E3EA;
+}
+
+#booking-logo{
+    position: absolute;
+    width: 125px;
+    height: 80px;
+    left: 210px;
+ 
+}
+
+#momondo-logo{
+    position: absolute;
+    width: 125px;
+    height: 118px;
+    left: 410px;
+    top: -25px;
+}
+
+#priceline-logo{
+    position: absolute;
+    width: 132px;
+    height: 46px;
+    left: 610px;
+    top: 15px;
+}
+
+#hopper-logo{
+    position: absolute;
+    width: 138px;
+    height: 55px;
+    left: 810px;
+    top: 11px;
+}
+
+footer p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+    left: -70px;
+    top: -7px;
+}
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#socialmedia{
+    position: absolute;
+    width: 138px;
+    height: 17px;
+    left: 600px;
+    top: 90px;
+}
+#instagram-logo{
+    width: 30px;
+    height:31px;
+}
+
+#facebook-logo{
+    width: 30.5px;
+    height: 30.71px;
+}
+/*flights-page*/
+#flights-view1{
+    position: absolute;
+    width: 1265px;
+    height: 184px;
+    left: 86px;
+    top: 82px;
+}
+.banner{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.opacity{
+    position: absolute;
+    width: 1265px;
+    height: 184px;
+    left: 86px;
+    top: 82px;
+    opacity: 0.2;
+    background-color: #fff;
+}
+.banner-tagline{
+    position: relative;
+    top: -30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.banner-sub-tagline{
+    position: relative;
+    top: -100px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+#page-intro{
+    position: absolute;
+    left: 91px;
+    top: 260px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+#flights-filter1{
+    position: absolute;
+    width: 946px;
+    height: 374px;
+    left: 98px;
+    top: 368px;
+    background: #FFFCF6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.dropbtn {
+    background-color:#0F2656;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .airline-classes, .sortby {
+    position: relative;
+    display: inline-block;
+    left: 300px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #0F2656;
+      color: #fff;
+  }
+  
+  .airline-classes:hover .dropdown-content {
+    display: block;
+  }
+
+  .sortby:hover .dropdown-content {
+    display: block;
+  }
+  
+  .airline-classes:hover .dropbtn {
+    background-color: #B3E3EA;
+    color: #000;
+  }
+
+  .sortby:hover .dropbtn {
+    background-color: #B3E3EA;
+    color: #000;
+  }
+  #destinations{
+    padding: 50px;
+    width: 800px;
+    background-color: red;
+  }
+  #destination-from{
+    width: 323px;
+    height: 61px;
+    float: left;
+    background: #EDECE8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border: none;
+  }
+  #swap-airports{
+    width: 89px;
+    height: 61px;
+    background: #EDECE8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-image: url("images/filter-icons/swap-airports.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 25px;
+  }
+  #swap-airports:active {
+    background-color: #B3E3EA;
+    box-shadow: 0 5px rgb(161, 161, 161);
+    transform: translateY(4px);
+  }
+  #swap-airports:hover {
+    background-color: #B3E3EA;
+    box-shadow: 0 5px rgb(161, 161, 161);
+    transform: translateY(4px);
+  }
+  #destination-to{
+    width: 323px;
+    height: 61px;
+    float: right;
+    background: #EDECE8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border: none;
+  }
+  input[type="text"]{
+      font-size: 20px;
+      color: rgb(82, 80, 80);
+  }
+
+  input[type="date"]{
+    padding: 20px;
+    border-radius:10px;
+    background-color: #EDECE8;
+    border: none;
+    font-size: 20px;
+}
+
+/*virtual experiences*/
+#virtual-experiences{
+  background-color: rgb(255, 255, 255);
+  width: 1157px;
+height: 467px;
+}
+  
+#city-bg{
+  position: relative;
+  width: 504.54px;
+  height: 458.38px;
+  float: left;
+
+}
+
+#city-bg:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.city-bg:hover button {   
+  opacity: 1;
+}
+
+#a380-bg{
+  position: relative;
+  width: 504.54px;
+  height: 458.38px;
+  float: right;
+}
+
+#a380-bg:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.a380-bg:hover button {   
+  opacity: 1;
+}
+
+
