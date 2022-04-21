@@ -325,16 +325,10 @@ height: 467px;
   width: 504.54px;
   height: 458.38px;
   float: left;
-
 }
 
-#city-bg:hover{
+#city-bg:hover, #a380-bg:hover{
   opacity: 0.7;
-  cursor: pointer;
-}
-
-.city-bg:hover button {   
-  opacity: 1;
 }
 
 #a380-bg{
@@ -344,13 +338,35 @@ height: 467px;
   float: right;
 }
 
-#a380-bg:hover{
-  opacity: 0.7;
-  cursor: pointer;
+#btnCountries, #btnAirlines{
+  position: absolute;
+  width: 303px;
+  height: 194px;
+  background: #0F2656;
+  border-radius: 25px;
+  top: 450px;
+  transition: transform .2s;
 }
 
-.a380-bg:hover button {   
-  opacity: 1;
+#btnCountries{
+  left: 245px;
 }
+
+#btnAirlines{
+  left: 898px;
+} 
+
+#btnCountries a, #btnAirlines a{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#btnCountries:hover, #btnAirlines:hover{
+  transform: scale(1.5);
+}
+
+
 
 
