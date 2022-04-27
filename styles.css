@@ -256,7 +256,6 @@ footer a{
   #destinations{
     padding: 50px;
     width: 800px;
-    background-color: red;
   }
   #destination-from{
     width: 323px;
@@ -313,11 +312,26 @@ footer a{
     font-size: 20px;
 }
 
+#btnFlight{
+  width: 230px;
+  height: 33px;
+  background: #0F2656;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+
+}
 /*virtual experiences*/
 #virtual-experiences{
   background-color: rgb(255, 255, 255);
   width: 1157px;
-height: 467px;
+  height: 467px;
 }
   
 #city-bg{
@@ -364,9 +378,197 @@ height: 467px;
 }
 
 #btnCountries:hover, #btnAirlines:hover{
-  transform: scale(1.5);
+  cursor: pointer;
+}
+/*countries page*/
+#countries-bg{
+  background-image: url('images/virtual-experiences/countries-bg.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1262px;
+  height: 712px;
+  left: 89px;
+  top: 90px;
 }
 
+.countries-images{
+  position: relative;
+  width: 189px;
+  height: 173px;
+  margin-left: 100px;
+  border-radius: 15px;
+}
 
+#louvre-name{
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  margin-left: 104px;
+  margin-top: -27px;
+  background: #0F2656;
+}
 
+#dubai-name{
+  position: absolute;
+  width: 186px;
+  height: 50px;
+  margin-left: 393.5px;
+  margin-top: -27px;
+  background: #0F2656;
+}
 
+#nyc-name{
+  position: absolute;
+  width: 182px;
+  height: 50px;
+  margin-left:690.5px;
+  margin-top: -27px;
+  background: #0F2656;
+}
+
+#rome-name{
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  margin-left: 984.5px;
+  margin-top: -27px;
+  background: #0F2656;
+}
+
+#louvre-name p, #dubai-name p, #nyc-name p, #rome-name p{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 14px;
+}
+
+#louvre-name:hover, #dubai-name:hover, #nyc-name:hover, #rome-name:hover{
+  background-color: #F4F4F4;
+}
+
+#louvre-name p:hover, #dubai-name p:hover, #nyc-name p:hover, #rome-name p:hover{
+  color: #000;
+}
+
+#search-container-experiences{
+  margin-top: -80px;
+  padding-bottom: 124px;
+}
+
+#search-experience{
+  position: relative;
+  width: 554px;
+  height: 61px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.19);
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  margin-top: -70px;
+  background: #EDECE8;
+  background-image: url('images/filter-icons/search-icon.png');
+  position: left;
+  background-size: 55px;
+  padding-left: 30px;
+  background-repeat: no-repeat;
+}
+
+/*contact page*/
+#contact-bg{
+  background-image: url('images/contact-bg.png');
+  position: relative;
+  width: 1176.7px;
+  height: 584.53px;
+  margin-top: 100px;
+}
+
+#contact-headings{
+  margin-top: -700px;
+}
+#body-contact h1{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#body-contact h2{
+  position: relative;
+  top: -50px;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-variant: small-caps;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+#contact-form{
+  position: relative;
+  width: 425px;
+  height: 340px;
+  margin-top: -50px;
+  background: #FFFCF6;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+#contact-heading{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+#contact-input{
+  margin-top: -10px;
+}
+#contact-email, #contact-name{
+  position: relative;
+  width: 350px;
+  height: 38px;
+  background: #EDECE8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  border: none;
+}
+
+#contact-message{
+  position: relative;
+  width: 350px;
+  height: 121px;
+  background: #EDECE8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  border: none;
+  resize: none;
+}
+
+#contact-email::placeholder, #contact-name::placeholder, #contact-message::placeholder{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 10px;
+}
+#btnSend{
+  position: relative;
+  width: 175.83px;
+  height: 33.3px;
+  background: #034488;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+}
